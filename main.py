@@ -9,6 +9,7 @@ import os
 # Configure Gemini API
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
+
 # FastAPI app
 app = FastAPI()
 
